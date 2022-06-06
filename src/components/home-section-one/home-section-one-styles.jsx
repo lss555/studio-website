@@ -24,18 +24,9 @@ export const Header = styled.h1`
   }
 `;
 
-
-// export const SmallPrint = styled.div`
-//   background-color: #c6bfb6;
-//   height: 100vh;
-//   display: flex;
-//   justify-content: flex-end;
-//   align-items: center;
-// `;
-
 export const ImageSection = styled.div`
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: flex;
   flex-flow: row wrap;
   text-align: center;
@@ -70,6 +61,10 @@ export const RowImage = styled.img`
   width: 300px;
   height: auto;
   margin-bottom: 20px;
+  :hover {
+    transition: transform 1s;
+    transform: scale(1.1);
+  }
   @media screen and (max-width: 768px) {
     width: 100%;
     height: auto;
