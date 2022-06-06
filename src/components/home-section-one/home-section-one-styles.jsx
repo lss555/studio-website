@@ -25,8 +25,6 @@ export const Header = styled.h1`
 `;
 
 export const ImageSection = styled.div`
-  padding-left: 1rem;
-  padding-right: 1rem;
   display: flex;
   flex-flow: row wrap;
   text-align: center;
@@ -57,7 +55,7 @@ export const Text = styled.div`
 `
 
 export const RowImage = styled.img`
-  border-radius: 10px;
+  border-radius: 15px;
   width: 300px;
   height: auto;
   margin-bottom: 20px;
