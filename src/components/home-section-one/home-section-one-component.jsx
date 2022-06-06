@@ -1,4 +1,4 @@
-import { SectionOneContainer, Header, ImageSection, RowImage } from './home-section-one-styles.jsx'
+import { SectionOneContainer, Header, ImageSection, RowImage, ImageContainer, Text } from './home-section-one-styles.jsx'
 import MtnImage from '../../images/mountains.jpg'
 
 
@@ -7,10 +7,22 @@ const SectionOne = () => {
   <SectionOneContainer>
     <Header>A FILM STUDIO DRIVEN BY RESEARCH AND STRATEGY</Header>
     <ImageSection>
-      <RowImage src={MtnImage} />
-      <RowImage src={MtnImage} />
-      <RowImage src={MtnImage} />
-      <RowImage src={MtnImage} />
+      <ImageContainer>
+        <RowImage src={MtnImage} />
+        <Text>Project1</Text>
+      </ImageContainer>
+      <ImageContainer>
+        <RowImage src={MtnImage} />
+        <Text>Project2</Text>
+      </ImageContainer>
+      <ImageContainer>
+        <RowImage src={MtnImage} />
+        <Text>Project3</Text>
+      </ImageContainer>
+      <ImageContainer>
+        <RowImage src={MtnImage} />
+        <Text>Project4</Text>
+      </ImageContainer>
     </ImageSection>
 
   </SectionOneContainer>
