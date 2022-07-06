@@ -25,5 +25,10 @@ export const homepageHighlights = [
     id: 4,
     src: Gif,
     projectName: 'Project 4',
+  },
+  {
+    id: 5,
+    src: Gif,
+    projectName: 'Project 5',
   }
 ];

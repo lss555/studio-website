@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import MtnImage from '../../images/mountains.jpg';
-import Gif from '../../images/animated.webp';
 
 export const SectionOneContainer = styled.div`
   background-color: #c6bfb6;
@@ -30,9 +28,11 @@ export const Header = styled.h1`
 export const ImageSection = styled.div`
   display: flex;
   flex-flow: row wrap;
+  text-align: center;
+  vertical-align: baseline;
+  box-sizing: border-box;
   justify-content: space-around;
-  border: red 3px solid;
-  width: 33%;
+  margin-top: 5rem;
   @media screen and (max-width: 768px) {
     margin-left: 0;
     margin-right: 20px;

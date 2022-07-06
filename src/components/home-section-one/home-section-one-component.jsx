@@ -8,16 +8,18 @@ const SectionOne = () => {
   return (
   <SectionOneContainer>
     <Header>{frontPageHeader}</Header>
-    {homepageHighlights.map(project => {
-      return (
-        <ImageSection key={project.id}>
-          <ImageContainer>
-            <RowImage src={project.src}/>
-            <Text>{project.projectName}</Text>
-          </ImageContainer>
-        </ImageSection>
-      );
-    })}
+    <ImageSection>
+      {homepageHighlights.map(project => {
+        return (
+          <div key={project.id}>
+            <ImageContainer>
+              <RowImage src={project.src}/>
+              <Text>{project.projectName}</Text>
+            </ImageContainer>
+          </div>
+        );
+      })}
+    </ImageSection>
 
   </SectionOneContainer>
   )
