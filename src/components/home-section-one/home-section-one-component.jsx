@@ -12,12 +12,12 @@ const SectionOne = () => {
       {homepageHighlights.map(project => {
         return (
           <Container key={project.id}>
-            <ProjectLink to='google.com'>
-              <ImageContainer>
+            <ImageContainer>
+              <ProjectLink href={project.to}>
                 <RowImage src={project.src}/>
                 <Text>{project.projectName}</Text>
-              </ImageContainer>
-            </ProjectLink>
+              </ProjectLink>
+            </ImageContainer>
           </Container>
         );
       })}

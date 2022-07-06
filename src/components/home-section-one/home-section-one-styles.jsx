@@ -59,6 +59,8 @@ export const Text = styled.div`
   top: 50%;
   left: 50%;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
   transform: translate(-50%, -50%);
 `;
 
@@ -82,7 +84,7 @@ export const RowImage = styled.img`
 `;
 
 export const ProjectLink = styled.a`
-
+  text-decoration: none;
 `;
 
 export const Container = styled.div`
