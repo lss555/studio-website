@@ -1,13 +1,26 @@
 import { homepageHighlights } from '../data/data.js';
 import { useParams } from 'react-router-dom';
+import { RowImage, ImageContainer, Text, ProjectLink, Container } from '../home-section-one/home-section-one-styles.jsx'
+
 
 const Projects = (props) => {
-  const { projectId } = useParams();
+  let params = useParams();
 
   return (
     <div>
-      <h1>{props.projectName}</h1>
-      <h3>{projectId}</h3>
+    {homepageHighlights.map(project => {
+      return (
+        <b key={project.id}>{params.id === project.id ?
+          <Container key={project.id}>
+            <ImageContainer>
+              <ProjectLink href={project.to}>
+                <RowImage src={project.src}/>
+                <Text>{project.projectName}</Text>
+              </ProjectLink>
+            </ImageContainer>
+          </Container> : null}</b>
+      );
+    })}
     </div>
   );
 }
