@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const SectionOneContainer = styled.div`
   background-color: #c6bfb6;
   height: 100vh;
@@ -33,6 +34,7 @@ export const ImageSection = styled.div`
   box-sizing: border-box;
   justify-content: space-around;
   margin-top: 5rem;
+
   @media screen and (max-width: 768px) {
     margin-left: 0;
     margin-right: 20px;
@@ -46,12 +48,17 @@ export const ImageContainer = styled.div`
   position: relative;
   text-align: center;
   color: white;
+  :hover {
+    transition: transform 1s;
+    transform: scale(1.1);
+  }
 `;
 
 export const Text = styled.div`
   position: absolute;
   top: 50%;
   left: 50%;
+  cursor: pointer;
   transform: translate(-50%, -50%);
 `;
 
@@ -63,11 +70,7 @@ export const RowImage = styled.img`
   height: auto;
   margin-bottom: 20px;
   cursor: pointer;
-  :hover {
-    transition: transform 1s;
-    transform: scale(1.1);
-    background-image: url(animated.gif);
-  }
+
   @media screen and (max-width: 768px) {
     width: 100%;
     height: auto;
@@ -77,3 +80,12 @@ export const RowImage = styled.img`
     padding-right: 0;
   }
 `;
+
+export const ProjectLink = styled.a`
+
+`;
+
+export const Container = styled.div`
+
+
+`

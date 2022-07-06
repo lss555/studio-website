@@ -1,4 +1,4 @@
-import { SectionOneContainer, Header, ImageSection, RowImage, ImageContainer, Text } from './home-section-one-styles.jsx'
+import { SectionOneContainer, Header, ImageSection, RowImage, ImageContainer, Text, ProjectLink, Container } from './home-section-one-styles.jsx'
 import { frontPageHeader, homepageHighlights } from '../data/data.js';
 
 
@@ -11,12 +11,14 @@ const SectionOne = () => {
     <ImageSection>
       {homepageHighlights.map(project => {
         return (
-          <div key={project.id}>
-            <ImageContainer>
-              <RowImage src={project.src}/>
-              <Text>{project.projectName}</Text>
-            </ImageContainer>
-          </div>
+          <Container key={project.id}>
+            <ProjectLink to='google.com'>
+              <ImageContainer>
+                <RowImage src={project.src}/>
+                <Text>{project.projectName}</Text>
+              </ImageContainer>
+            </ProjectLink>
+          </Container>
         );
       })}
     </ImageSection>
