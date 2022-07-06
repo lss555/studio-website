@@ -1,29 +1,23 @@
 import { SectionOneContainer, Header, ImageSection, RowImage, ImageContainer, Text } from './home-section-one-styles.jsx'
-import MtnImage from '../../images/mountains.jpg'
+import { frontPageHeader, homepageHighlights } from '../data/data.js';
+
+
 
 
 const SectionOne = () => {
   return (
   <SectionOneContainer>
-    <Header>A FILM STUDIO DRIVEN BY RESEARCH AND STRATEGY</Header>
-    <ImageSection>
-      <ImageContainer>
-        <RowImage src={MtnImage} />
-        <Text>Project1</Text>
-      </ImageContainer>
-      <ImageContainer>
-        <RowImage src={MtnImage} />
-        <Text>Project2</Text>
-      </ImageContainer>
-      <ImageContainer>
-        <RowImage src={MtnImage} />
-        <Text>Project3</Text>
-      </ImageContainer>
-      <ImageContainer>
-        <RowImage src={MtnImage} />
-        <Text>Project4</Text>
-      </ImageContainer>
-    </ImageSection>
+    <Header>{frontPageHeader}</Header>
+    {homepageHighlights.map(project => {
+      return (
+        <ImageSection key={project.id}>
+          <ImageContainer>
+            <RowImage src={project.src}/>
+            <Text>{project.projectName}</Text>
+          </ImageContainer>
+        </ImageSection>
+      );
+    })}
 
   </SectionOneContainer>
   )

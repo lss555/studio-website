@@ -17,7 +17,7 @@ const NavBar = ({ toggle }) => {
             <Nav>
               <NavBarContainer>
                 <NavLogo to='/' onClick={toggleHome}>
-                  STUDIO
+                  Sovereign Studios
                 </NavLogo>
                 <MobileIcon onClick={toggle}>
                   <FaBars />
