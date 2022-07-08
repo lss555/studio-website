@@ -1,6 +1,8 @@
 import { homepageHighlights } from '../data/data.js';
 import { useParams } from 'react-router-dom';
-import { RowImage, ImageContainer, Text, ProjectLink, Container } from '../home-section-one/home-section-one-styles.jsx'
+import { Title, ProjectContainer, PlayerContainer, InfoText } from './projects-styles';
+import NavBar from '../navbar/navbar-component.jsx';
+import ReactPlayer from 'react-player';
 
 
 const Projects = (props) => {
@@ -8,17 +10,19 @@ const Projects = (props) => {
 
   return (
     <div>
+    <NavBar />
     {homepageHighlights.map(project => {
       return (
         <b key={project.id}>{params.id === project.id ?
-          <Container key={project.id}>
-            <ImageContainer>
-              <ProjectLink href={project.to}>
-                <RowImage src={project.src}/>
-                <Text>{project.projectName}</Text>
-              </ProjectLink>
-            </ImageContainer>
-          </Container> : null}</b>
+          <ProjectContainer key={project.id}>
+            <Title>{project.projectName}</Title>
+            <PlayerContainer>
+              <ReactPlayer controls url={project.url}/>
+            </PlayerContainer>
+            <InfoText>
+              {project.info}
+            </InfoText>
+          </ProjectContainer> : null}</b>
       );
     })}
     </div>

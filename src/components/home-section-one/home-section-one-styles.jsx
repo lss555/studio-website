@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const SectionOneContainer = styled.div`
   background-color: #c6bfb6;
-  height: 100vh;
+  height: 100%;
   padding-top: 200px;
 
   @media screen and (max-width: 768px) {
