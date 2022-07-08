@@ -19,6 +19,8 @@ export const SubTitle = styled.h3`
 
 export const PlayerContainer = styled.div`
   display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
 `;
 
 export const InfoText = styled.p`

@@ -6,4 +6,5 @@ export const Test = styled.div`
   justify-content: center;
   align-self: flex-end;
   margin-top: 40rem;
+  border: 5px solid red;
 `;
