@@ -1,8 +1,9 @@
 import { homepageHighlights } from '../data/data.js';
 import { useParams } from 'react-router-dom';
-import { Title, ProjectContainer, PlayerContainer, InfoText } from './projects-styles';
+import { Title, ProjectContainer, PlayerContainer, InfoText, SubTitle } from './projects-styles';
 import NavBar from '../navbar/navbar-component.jsx';
 import ReactPlayer from 'react-player';
+import Footer from '../footer/footer-component.js';
 
 
 const Projects = (props) => {
@@ -16,6 +17,9 @@ const Projects = (props) => {
         <b key={project.id}>{params.id === project.id ?
           <ProjectContainer key={project.id}>
             <Title>{project.projectName}</Title>
+            <SubTitle>
+              {project.subTitle}
+            </SubTitle>
             <PlayerContainer>
               <ReactPlayer controls url={project.url}/>
             </PlayerContainer>
@@ -25,6 +29,7 @@ const Projects = (props) => {
           </ProjectContainer> : null}</b>
       );
     })}
+    <Footer />
     </div>
   );
 }

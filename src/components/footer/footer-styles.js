@@ -75,6 +75,7 @@ export const FooterLink = styled.a`
 export const SocialMedia = styled.section`
   max-width: 1000px;
   width: 100%;
+  height: 20vh;
   display: flex;
   justify-content: center;
   margin: 0 auto;
