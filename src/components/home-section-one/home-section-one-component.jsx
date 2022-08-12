@@ -1,6 +1,6 @@
-import { SectionOneContainer, Header, ImageSection, RowImage, ImageContainer, Text, ProjectLink, Container } from './home-section-one-styles.jsx'
+import { SectionOneContainer, Header, ImageSection, RowImage, ImageContainer, Text, ProjectLink, Container } from './home-section-one-styles.jsx';
 import { frontPageHeader, homepageHighlights } from '../data/data.js';
-
+import { CarouselWrapper } from 'react-pretty-carousel';
 
 
 
