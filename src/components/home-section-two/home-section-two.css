@@ -1,0 +1,14 @@
+.card-div {
+  &:hover {
+    transform: scale(1.12);
+  }
+}
+.projects-card {
+  background-color: #c6bfb6;
+  border-color: #c6bfb6;
+  margin: 1rem auto 1rem auto;
+  box-shadow: 0 2px 20px gray;
+  &:hover {
+    transform: scale(1.2);
+  }
+}

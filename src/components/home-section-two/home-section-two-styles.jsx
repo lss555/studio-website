@@ -1,10 +1,8 @@
 import styled from 'styled-components'
 
-export const Test = styled.div`
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  align-self: flex-end;
-  margin-top: 40rem;
-  border: 5px solid red;
+export const SectionTwoContainer = styled.div`
+  margin-top: 25rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 100%;
 `;

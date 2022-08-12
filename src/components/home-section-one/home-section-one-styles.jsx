@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 export const SectionOneContainer = styled.div`
   background-color: #c6bfb6;
-  height: 100%;
+  height: 40vh;
   padding-top: 200px;
-
+  width: 100%;
   @media screen and (max-width: 768px) {
 
 
@@ -19,7 +19,6 @@ export const Header = styled.h1`
   padding-right: auto;
   margin-top: -2rem;
   margin-bottom: 5rem;
-
   width: 70%;
   @media screen and (max-width: 768px) {
     font-size: 4rem;

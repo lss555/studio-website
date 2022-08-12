@@ -51,5 +51,14 @@ export const homepageHighlights = [
     url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
     info: 'skiing big sky and stuff nice wow cool super nice we worked with so and so nice personal project filming with so and so sdkjfnskjdfnskjndfsd sd;kfnsdkjfn skjdfndskjnf s;dfjnsd;knfj',
     subTitle: 'directed by Joe Dirt'
+  },
+  {
+    id: '6',
+    src: MtnImage,
+    projectName: 'Project 5',
+    to: '/projects/5',
+    url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
+    info: 'skiing big sky and stuff nice wow cool super nice we worked with so and so nice personal project filming with so and so sdkjfnskjdfnskjndfsd sd;kfnsdkjfn skjdfndskjnf s;dfjnsd;knfj',
+    subTitle: 'directed by Joe Dirt'
   }
 ];
