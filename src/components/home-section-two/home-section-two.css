@@ -1,18 +1,24 @@
 .card-div {
   cursor: pointer;
+  letter-spacing: .03rem;
 }
 .card-div:hover {
   transition-duration: 1s;
-  transform: scale(1.05);
+  transform: scale(1.02);
+}
+
+.card-text {
+  color: 	#353839;
+}
+.card-title {
+  color: 	#353839;
 }
 
 .card-div:hover .card-text {
   color: black;
-  font-weight: bold;
 }
 .card-div:hover .card-title {
   color: black;
-  font-weight: bold;
 }
 
 .projects-card {
