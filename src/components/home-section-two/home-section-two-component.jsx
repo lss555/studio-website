@@ -31,7 +31,7 @@ const SectionTwo = () => {
           <SectionTwoContainer key={projects.id}>
           <Headers>
             <Header>Work</Header>
-            <SubHeader to="">View All</SubHeader>
+            <SubHeader to="/work">View All</SubHeader>
           </Headers>
             <Row>
               {projects}

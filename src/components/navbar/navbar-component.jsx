@@ -21,42 +21,22 @@ const NavBar = ({ toggle }) => {
                 </MobileIcon>
                 <NavMenu>
                   <NavItemLeft>
-                    <NavLinks to='faq'
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact='true'
-                    offset={-80}
+                    <NavLinks to='/ourteam'
                     >Our Team</NavLinks>
                   </NavItemLeft>
                   <NavItemLeft>
-                    <NavLinks to='about'
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact='true'
-                    offset={-80}
+                    <NavLinks to='/about'
                     >About</NavLinks>
                   </NavItemLeft>
                   <NavLogo to='/' onClick={toggleHome}>
                     Sovereign Studios
                   </NavLogo>
                   <NavItemRight>
-                    <NavLinks to='faq'
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact='true'
-                    offset={-80}
+                    <NavLinks to='/work'
                     >Work</NavLinks>
                   </NavItemRight>
                   <NavItemRight>
-                    <NavLinks to='services'
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact='true'
-                    offset={-80}
+                    <NavLinks to='/contact'
                     >Contact</NavLinks>
                   </NavItemRight>
                 </NavMenu>

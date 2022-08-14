@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { Link as LinkR } from 'react-router-dom';
 
 export const SectionTwoContainer = styled.div`
   margin-top: 25rem;
@@ -15,7 +16,7 @@ export const Header = styled.h2`
   letter-spacing: .07rem;
 `;
 
-export const SubHeader = styled.a`
+export const SubHeader = styled(LinkR)`
   display: flex;
   justify-content: space-between;
   align-items: center;
