@@ -1,4 +1,4 @@
-import { SectionTwoContainer } from './home-section-two-styles.jsx';
+import { SectionTwoContainer, Header, SubHeader, Headers } from './home-section-two-styles.jsx';
 import './home-section-two.css';
 import { homepageHighlights } from '../data/data.js';
 import {
@@ -29,6 +29,10 @@ const SectionTwo = () => {
 
       return (
           <SectionTwoContainer key={projects.id}>
+          <Headers>
+            <Header>Work</Header>
+            <SubHeader to="">View All</SubHeader>
+          </Headers>
             <Row>
               {projects}
             </Row>
