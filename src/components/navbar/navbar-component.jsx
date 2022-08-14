@@ -3,7 +3,7 @@ import React from 'react'
 import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll'
-import { Nav, NavBarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './navbar-styles.jsx'
+import { Nav, NavBarContainer, NavLogo, MobileIcon, NavMenu, NavItemLeft, NavItemRight, NavLinks } from './navbar-styles.jsx'
 
 const NavBar = ({ toggle }) => {
 
@@ -16,14 +16,20 @@ const NavBar = ({ toggle }) => {
           <IconContext.Provider value={{ color: '#010606' }}>
             <Nav>
               <NavBarContainer>
-                <NavLogo to='/' onClick={toggleHome}>
-                  Sovereign Studios
-                </NavLogo>
                 <MobileIcon onClick={toggle}>
                   <FaBars />
                 </MobileIcon>
                 <NavMenu>
-                  <NavItem>
+                  <NavItemLeft>
+                    <NavLinks to='faq'
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact='true'
+                    offset={-80}
+                    >Our Team</NavLinks>
+                  </NavItemLeft>
+                  <NavItemLeft>
                     <NavLinks to='about'
                     smooth={true}
                     duration={500}
@@ -31,8 +37,11 @@ const NavBar = ({ toggle }) => {
                     exact='true'
                     offset={-80}
                     >About</NavLinks>
-                  </NavItem>
-                  <NavItem>
+                  </NavItemLeft>
+                  <NavLogo to='/' onClick={toggleHome}>
+                    Sovereign Studios
+                  </NavLogo>
+                  <NavItemRight>
                     <NavLinks to='faq'
                     smooth={true}
                     duration={500}
@@ -40,8 +49,8 @@ const NavBar = ({ toggle }) => {
                     exact='true'
                     offset={-80}
                     >Work</NavLinks>
-                  </NavItem>
-                  <NavItem>
+                  </NavItemRight>
+                  <NavItemRight>
                     <NavLinks to='services'
                     smooth={true}
                     duration={500}
@@ -49,7 +58,7 @@ const NavBar = ({ toggle }) => {
                     exact='true'
                     offset={-80}
                     >Contact</NavLinks>
-                  </NavItem>
+                  </NavItemRight>
                 </NavMenu>
               </NavBarContainer>
             </Nav>

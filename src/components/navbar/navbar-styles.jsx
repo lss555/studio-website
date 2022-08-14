@@ -20,7 +20,7 @@ export const Nav = styled.nav`
 
 export const NavBarContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   height: 80px;
   z-index: 1;
   width: 100%;
@@ -32,10 +32,11 @@ export const NavLogo = styled(LinkR)`
   color: #010606;
   justify-self: flex-start;
   cursor: pointer;
+  justify-content: center;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  margin: auto 8rem;
   font-weight: bold;
   text-decoration: none;
 `;
@@ -59,14 +60,24 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: 10rem;
+  justify-content: center;
   @media screen and (max-width: 768px) {
     display: none;
   }
 `;
 
-export const NavItem = styled.li`
+export const NavItemLeft = styled.div`
+  display: flex;
   height: 80px;
+  justify-content: flex-start;
+  align-items: flex-start;
+`;
+
+export const NavItemRight = styled.div`
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  align-items: flex-end;
 `;
 
 export const NavLinks = styled(LinkS)`
