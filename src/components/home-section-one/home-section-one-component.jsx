@@ -7,7 +7,7 @@ import { frontPageHeader } from '../data/data.js';
 const SectionOne = () => {
   return (
   <SectionOneContainer>
-    <Header>{frontPageHeader}</Header>
+        <Header>{frontPageHeader}</Header>
   </SectionOneContainer>
   )
 }

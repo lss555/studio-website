@@ -20,6 +20,7 @@ export const Header = styled.h1`
   margin-top: -2rem;
   margin-bottom: 5rem;
   width: 70%;
+  z-index: 10;
   @media screen and (max-width: 768px) {
     font-size: 4rem;
   }
@@ -85,8 +86,3 @@ export const RowImage = styled.img`
 export const ProjectLink = styled.a`
   text-decoration: none;
 `;
-
-export const Container = styled.div`
-
-
-`

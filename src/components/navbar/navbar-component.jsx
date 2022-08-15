@@ -28,9 +28,11 @@ const NavBar = ({ toggle }) => {
                     <NavLinks to='/about'
                     >About</NavLinks>
                   </NavItemLeft>
-                  <NavLogo to='/' onClick={toggleHome}>
-                    Sovereign Studios
-                  </NavLogo>
+                </NavMenu>
+                <NavLogo to='/' onClick={toggleHome}>
+                  Sovereign Studios
+                </NavLogo>
+                <NavMenu>
                   <NavItemRight>
                     <NavLinks to='/work'
                     >Work</NavLinks>

@@ -42,6 +42,11 @@ export const NavLogo = styled(LinkR)`
   &:hover {
     color: #610517;
   }
+  @media screen and (max-width: 576px) {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -5rem;
+  }
 `;
 
 export const MobileIcon = styled.div`
@@ -49,8 +54,8 @@ export const MobileIcon = styled.div`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 1.6rem;
-    right: 1.6rem;
+    top: 1rem;
+    right: 2rem;
     transfrom: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
