@@ -25,7 +25,7 @@ export const SubHeader = styled(LinkR)`
   color: black;
   :hover {
   cursor: pointer;
-  color: red;
+  color: #610517;
   }
 `;
 

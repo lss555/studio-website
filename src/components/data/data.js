@@ -62,3 +62,27 @@ export const homepageHighlights = [
     subTitle: 'directed by Joe Dirt'
   }
 ];
+
+export const team = [
+  {
+    id: '1t',
+    src: MtnImage,
+    name: 'George Orwell',
+    summary: 'Wrote a book when I was 6 never stopped.s ljdfbskd jfnskjdfndskl jfnsdkjfnsdkjf dskljfbdskljf dsklj fbd slkjfdsk jbfsdkjbfsd kljfbs dkljfbsdkjf bsldjk fsk djlfbskdjf bsdkjfb sdkl fhd skj fds skdj fhd sjkf',
+    imgStart: true
+  },
+  {
+    id: '2t',
+    src: MtnImage,
+    name: 'Joe Dirt',
+    summary: 'Wrote a book when I was 6 never stopped.s ljdfbskd jfnskjdfndskl jfnsdkjfnsdkjf dskljfbdskljf dsklj fbd slkjfdsk jbfsdkjbfsd kljfbs dkljfbsdkjf bsldjk fsk djlfbskdjf bsdkjfb sdkl fhd skj fds skdj fhd sjkf',
+    imgStart: false
+  },
+  {
+    id: '3t',
+    src: MtnImage,
+    name: 'Teddy Jackson',
+    summary: 'Wrote a book when I was 6 never stopped.s ljdfbskd jfnskjdfndskl jfnsdkjfnsdkjf dskljfbdskljf dsklj fbd slkjfdsk jbfsdkjbfsd kljfbs dkljfbsdkjf bsldjk fsk djlfbskdjf bsdkjfb sdkl fhd skj fds skdj fhd sjkf',
+    imgStart: true
+  }
+];
