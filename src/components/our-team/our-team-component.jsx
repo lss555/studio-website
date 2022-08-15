@@ -1,5 +1,5 @@
 import { team } from '../data/data.js';
-import { TeamContainer, TeamMember, TeamMemberImage, TeamMemberName, TeamMemberSummary, TeamMemberText, TeamMemberTop, TeamMemberSocial } from './our-team-styles';
+import { TeamContainer, TeamMember, TeamMemberImage, TeamMemberName, TeamMemberSummary, TeamMemberText, TeamMemberTop, TeamMemberSocial, Spacer } from './our-team-styles';
 import NavBar from '../navbar/navbar-component.jsx';
 import Footer from '../footer/footer-component.js';
 import { FaInstagram, FaYoutube } from 'react-icons/fa';
@@ -30,7 +30,8 @@ const OurTeam = () => {
   return (
     <div>
     <NavBar />
-      {teamMembers}
+    <Spacer>Our Team</Spacer>
+    {teamMembers}
     <Footer />
     </div>
   );

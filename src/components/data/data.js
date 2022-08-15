@@ -1,6 +1,6 @@
 import Gif from '../../images/animated.webp';
 import MtnImage from '../../images/mountains.jpg'
-
+import Dog from '../../images/dog.jpg'
 export const frontPageHeader = 'A FILM STUDIO DRIVEN BY RESEARCH AND STRATEGY';
 
 // match id to the 'to' tag number in order to match the route and have the correct display
@@ -66,21 +66,21 @@ export const homepageHighlights = [
 export const team = [
   {
     id: '1t',
-    src: MtnImage,
+    src: Dog,
     name: 'George Orwell',
     summary: 'Wrote a book when I was 6 never stopped.s ljdfbskd jfnskjdfndskl jfnsdkjfnsdkjf dskljfbdskljf dsklj fbd slkjfdsk jbfsdkjbfsd kljfbs dkljfbsdkjf bsldjk fsk djlfbskdjf bsdkjfb sdkl fhd skj fds skdj fhd sjkf',
     imgStart: true
   },
   {
     id: '2t',
-    src: MtnImage,
+    src: Dog,
     name: 'Joe Dirt',
     summary: 'Wrote a book when I was 6 never stopped.s ljdfbskd jfnskjdfndskl jfnsdkjfnsdkjf dskljfbdskljf dsklj fbd slkjfdsk jbfsdkjbfsd kljfbs dkljfbsdkjf bsldjk fsk djlfbskdjf bsdkjfb sdkl fhd skj fds skdj fhd sjkf',
     imgStart: false
   },
   {
     id: '3t',
-    src: MtnImage,
+    src: Dog,
     name: 'Teddy Jackson',
     summary: 'Wrote a book when I was 6 never stopped.s ljdfbskd jfnskjdfndskl jfnsdkjfnsdkjf dskljfbdskljf dsklj fbd slkjfdsk jbfsdkjbfsd kljfbs dkljfbsdkjf bsldjk fsk djlfbskdjf bsdkjfb sdkl fhd skj fds skdj fhd sjkf',
     imgStart: true
