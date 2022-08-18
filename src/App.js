@@ -6,10 +6,28 @@ import Work from './components/work/work-component.jsx';
 import Contact from './components/contact/contact-component.jsx';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import ClimbingBoxLoader
+ from "react-spinners/ClimbingBoxLoader";
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 3000)
+  }, [])
+
   return (
-    <BrowserRouter>
+    <BrowserRouter className='App'>
+    { loading ? <ClimbingBoxLoader
+      className='initialLoader'
+      color='#610517'
+      loading={loading}
+      size={30}
+      /> :
       <Routes>
         <Route path='/' element={<Home />} exact />
         <Route path='/projects/:id' element={<Projects />} exact />
@@ -18,6 +36,7 @@ function App() {
         <Route path='/work' element={<Work />} exact />
         <Route path='/contact' element={<Contact />} exact />
       </Routes>
+      }
     </BrowserRouter>
   );
 }
