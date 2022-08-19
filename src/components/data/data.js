@@ -1,8 +1,17 @@
 import Gif from '../../images/animated.webp';
-import MtnImage from '../../images/mountains.jpg'
-import Dog from '../../images/dog.jpg'
+import MtnImage from '../../images/mountains.jpg';
+import Dog from '../../images/dog.jpg';
+import Graffiti from '../../images/graffiti.jpg'
+
+// front page header
 export const frontPageHeader = 'A FILM STUDIO DRIVEN BY RESEARCH AND STRATEGY';
 
+// about section
+export const aboutHeader = 'Reimanging Media and Marketing with top tier production';
+
+export const aboutImageHeader = Graffiti;
+
+// front page highlight projects
 // match id to the 'to' tag number in order to match the route and have the correct display
 
 export const homepageHighlights = [
@@ -63,6 +72,8 @@ export const homepageHighlights = [
   }
 ];
 
+// Team Members
+
 export const team = [
   {
     id: '1t',
@@ -86,6 +97,8 @@ export const team = [
     imgStart: true
   }
 ];
+
+// all current projects, shown in work route
 
 export const allProjects = [
   {

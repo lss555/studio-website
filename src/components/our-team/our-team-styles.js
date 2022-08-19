@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const TeamContainer = styled.div`
-  height: 100vh;
-  margin-bottom: -150px;
+  height: 65vh;
   @media screen and (max-width: 576px) {
-    margin-bottom: -15rem;
+    
   }
 `;
 
