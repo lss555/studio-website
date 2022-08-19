@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const AboutContainer = styled.div`
   height: 100%;
   margin-top: 150px;
+  margin-bottom: 5rem;
 `;
 
 export const AboutImageHeader = styled.img`
@@ -29,7 +30,7 @@ export const HeaderSection = styled.div`
 `;
 
 export const AboutInfoSection = styled.div`
-  height: 100vh;
+  height: 100%;
 `;
 
 export const InfoHeader = styled.h1`
@@ -41,28 +42,45 @@ export const InfoHeader = styled.h1`
 export const InfoPointSection = styled.div`
   display: flex;
   margin-left: 2rem;
+  flex-wrap: wrap;
+  flex-basis: 50%;
   @media screen and (max-width: 768px) {
     display: block;
-
+    flex-basis: 90%;
+    width: 90%;
   }
 `;
 
 export const InfoPoints = styled.h3`
   display: flex;
   width: 40rem;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   @media screen and (max-width: 768px) {
     margin-bottom: 1rem;
-
+    flex-direction: column;
   }
 `;
 
 export const InfoPointText = styled.p`
   margin-bottom: 3rem;
   display: flex;
-  justify-content: flex-end;
-  margin-right: 3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
   border-bottom: 2px solid black;
+`;
+
+export const InfoPointContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  width: 40%;
+  margin: auto auto 5rem auto;
+  @media screen and (max-width: 768px) {
+    width: 95%;
+  }
 `;
