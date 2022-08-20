@@ -2,11 +2,14 @@ import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 
 export const SectionTwoContainer = styled.div`
-  margin-top: 25rem;
+  margin-top: 28rem;
   margin-left: 1rem;
   margin-right: 3rem;
   width: 100%;
   color: black;
+  @media screen and (max-width: 768px) {
+    margin-top: 30rem;
+  }
 `;
 
 export const Header = styled.h2`

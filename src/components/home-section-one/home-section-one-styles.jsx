@@ -6,14 +6,37 @@ export const SectionOneContainer = styled.div`
   height: 40vh;
   padding-top: 200px;
   width: 100%;
+  display: flex;
   @media screen and (max-width: 768px) {
 
 
   }
 `;
 
+export const HeroBg = styled.div`
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  background-image: url("skate.gif");
+`;
+
+export const ImageBg = styled.img`
+  margin-top: 80px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
+`;
+
 export const Header = styled.h1`
-  background-color: #c6bfb6;
+  color: white;
   font-size: 5rem;
   padding-left: 2rem;
   padding-right: auto;

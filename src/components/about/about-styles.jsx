@@ -72,6 +72,10 @@ export const InfoPointText = styled.p`
   text-align: center;
   margin: auto;
   border-bottom: 2px solid black;
+  padding: 1rem;
+  &:hover {
+    border-bottom: 2px solid #610517;
+  }
 `;
 
 export const InfoPointContainer = styled.div`
