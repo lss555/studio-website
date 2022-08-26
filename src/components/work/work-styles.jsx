@@ -4,10 +4,11 @@ import { Link as LinkR } from 'react-router-dom';
 export const WorkContainer = styled.div`
   margin-top: 10rem;
   margin-left: 1rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
   paddin-left: 1rem;
-  width: 100vw;
+  width: 98vw;
   color: black;
+  box-sizing: border-box;
 `;
 
 export const AllProjectsHeader = styled.h2`
@@ -32,10 +33,12 @@ export const AllProjectsSubHeader = styled(LinkR)`
 
 export const AllProjectsHeaders = styled.div`
   display: flex;
+  box-sizing: border-box;
   justify-content: space-between;
   margin-right: 2rem;
 `;
 
 export const WorkPageContainer = styled.div`
-  p
+  box-sizing: border-box;
+  width: 100vw;
 `;

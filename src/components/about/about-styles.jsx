@@ -4,6 +4,7 @@ export const AboutContainer = styled.div`
   height: 100%;
   margin-top: 150px;
   margin-bottom: 5rem;
+  box-sizing: border-box;
 `;
 
 export const AboutImageHeader = styled.img`

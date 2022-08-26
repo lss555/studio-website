@@ -5,7 +5,7 @@ export const SectionOneContainer = styled.div`
   background-color: #c6bfb6;
   height: 40vh;
   padding-top: 200px;
-  width: 100vw;
+  width: 96vw;
   display: flex;
   @media screen and (max-width: 768px) {
 
@@ -27,7 +27,7 @@ export const HeroBg = styled.div`
 
 export const ImageBg = styled.img`
   margin-top: 80px;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;

@@ -28,4 +28,4 @@ export const InfoText = styled.p`
   flex-direction: column;
   align-items: center;
   margin: 5rem 5%;
-`
+`;

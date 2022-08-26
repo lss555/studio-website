@@ -5,7 +5,7 @@ export const SectionTwoContainer = styled.div`
   margin-top: 28rem;
   margin-left: 1rem;
   margin-right: 3rem;
-  width: 100%;
+  width: 96vw;
   color: black;
   @media screen and (max-width: 768px) {
     margin-top: 30rem;

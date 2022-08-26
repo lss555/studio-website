@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const TeamContainer = styled.div`
   height: 65vh;
+  box-sizing: border-box;
   @media screen and (max-width: 576px) {
-    
+
   }
 `;
 
