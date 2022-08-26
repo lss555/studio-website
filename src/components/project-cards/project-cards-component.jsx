@@ -3,7 +3,7 @@ import {
   CardTitle, Col
 } from 'reactstrap'
 import { Link } from 'react-router-dom';
-import { CardDiv } from './project-cards-styles.jsx';
+import { } from './project-cards-styles.jsx';
 import { homepageHighlights, allProjects } from '../data/data.js';
 import './project-cards.css';
 
@@ -11,7 +11,7 @@ import './project-cards.css';
 export const projectCards = homepageHighlights.map(project => (
       <Col className='card-column' sm='4' key={project.id}>
         <Link to={`/projects/${project.id}`} className="card-link">
-          <CardDiv>
+          <div className='card-div'>
             <Card className="projects-card" body inverse>
               <CardBody>
                 <CardTitle className="card-title">{project.projectName}</CardTitle>
@@ -21,7 +21,7 @@ export const projectCards = homepageHighlights.map(project => (
                 <CardText className="card-text">{project.info}</CardText>
               </CardBody>
             </Card>
-          </CardDiv>
+          </div>
         </Link>
       </Col>
     ))
@@ -29,7 +29,7 @@ export const projectCards = homepageHighlights.map(project => (
     export const allProjectCards = allProjects.map(allProject => (
           <Col className='card-column' sm='4' key={allProject.id}>
             <Link to={`/projects/${allProject.id}`} className="card-link">
-              <CardDiv>
+              <div className='card-div'>
                 <Card className="projects-card" body inverse>
                   <CardBody>
                     <CardTitle className="card-title">{allProject.projectName}</CardTitle>
@@ -39,7 +39,7 @@ export const projectCards = homepageHighlights.map(project => (
                     <CardText className="card-text">{allProject.info}</CardText>
                   </CardBody>
                 </Card>
-              </CardDiv>
+              </div>
             </Link>
           </Col>
         ))
