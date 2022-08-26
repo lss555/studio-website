@@ -4,6 +4,7 @@ import { Title, ProjectContainer, PlayerContainer, InfoText, SubTitle } from './
 import NavBar from '../navbar/navbar-component.jsx';
 import ReactPlayer from 'react-player';
 import Footer from '../footer/footer-component.js';
+import { motion } from 'framer-motion';
 
 
 const Projects = (props) => {
@@ -12,6 +13,11 @@ const Projects = (props) => {
   return (
     <div>
     <NavBar />
+    <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
     {homepageHighlights.map(project => {
       return (
         <b key={project.id}>{params.id === project.id ?
@@ -29,6 +35,7 @@ const Projects = (props) => {
           </ProjectContainer> : null}</b>
       );
     })}
+    </motion.div>
     <Footer />
     </div>
   );

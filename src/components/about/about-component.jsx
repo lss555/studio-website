@@ -3,6 +3,7 @@ import { AboutContainer, AboutImageHeader, AboutHeader, HeaderSection, AboutInfo
 import NavBar from '../navbar/navbar-component.jsx';
 import Footer from '../footer/footer-component.js';
 import { aboutHeader, aboutImageHeader } from '../data/data.js';
+import { motion } from 'framer-motion';
 
 
 const About = () => {
@@ -10,6 +11,11 @@ const About = () => {
   return (
     <div>
     <NavBar />
+    <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
       <AboutContainer>
         <HeaderSection>
           <AboutHeader>{aboutHeader}</AboutHeader>
@@ -37,6 +43,7 @@ const About = () => {
           </InfoPointSection>
         </AboutInfoSection>
       </AboutContainer>
+      </motion.div>
     <Footer />
     </div>
   );

@@ -6,6 +6,7 @@ import { allProjectCards } from '../project-cards/project-cards-component.jsx';
 import {
   Row
 } from 'reactstrap';
+import { motion } from 'framer-motion';
 
 
 const Work = () => {
@@ -13,6 +14,11 @@ const Work = () => {
   return (
     <div>
       <NavBar />
+      <motion.div
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+      >
       <WorkContainer>
         <AllProjectsHeaders>
           <AllProjectsHeader>Our Work</AllProjectsHeader>
@@ -22,6 +28,7 @@ const Work = () => {
           {allProjectCards}
         </Row>
       </WorkContainer>
+      </motion.div>
       <Footer />
     </div>
   );

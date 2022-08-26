@@ -3,6 +3,7 @@ import { TeamContainer, TeamMember, TeamMemberImage, TeamMemberName, TeamMemberS
 import NavBar from '../navbar/navbar-component.jsx';
 import Footer from '../footer/footer-component.js';
 import { FaInstagram, FaYoutube } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 
 const OurTeam = () => {
@@ -30,8 +31,14 @@ const OurTeam = () => {
   return (
     <div>
     <NavBar />
+    <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
     <Spacer>Our Team</Spacer>
     {teamMembers}
+    </motion.div>
     <Footer />
     </div>
   );
