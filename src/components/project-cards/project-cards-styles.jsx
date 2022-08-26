@@ -34,3 +34,11 @@ import styled from 'styled-components';
 //   justify-content: space-between;
 //   margin-right: 2rem;
 // `;
+
+export const CardDiv = styled.div`
+
+`;
+
+export const CardContainer = styled.div`
+  margin-right: 1rem;
+`;

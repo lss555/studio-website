@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   margin: 0 auto 0 auto;
   padding-top: 20px;
   @media screen and (max-width: 768px) {
@@ -51,7 +51,7 @@ export const FooterLinkItems = styled.div`
   @media screen and (max-width: 420px) {
     margin: 0;
     padding: 10px;
-    width: 100%;
+    width: 100vw;
   }
 `;
 

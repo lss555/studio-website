@@ -4,8 +4,9 @@ import { Link as LinkR } from 'react-router-dom';
 export const WorkContainer = styled.div`
   margin-top: 10rem;
   margin-left: 1rem;
-  margin-right: 3rem;
-  width: 100%;
+  padding-right: 2rem;
+  paddin-left: 1rem;
+  width: 100vw;
   color: black;
 `;
 
@@ -33,4 +34,8 @@ export const AllProjectsHeaders = styled.div`
   display: flex;
   justify-content: space-between;
   margin-right: 2rem;
+`;
+
+export const WorkPageContainer = styled.div`
+  p
 `;

@@ -5,7 +5,7 @@
   align-items: center;
   align-content: center;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .initialLoader {

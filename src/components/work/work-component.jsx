@@ -1,5 +1,5 @@
 
-import { WorkContainer, AllProjectsHeaders, AllProjectsSubHeader, AllProjectsHeader } from './work-styles';
+import { WorkContainer, AllProjectsHeaders, AllProjectsSubHeader, AllProjectsHeader, WorkPageContainer } from './work-styles';
 import NavBar from '../navbar/navbar-component.jsx';
 import Footer from '../footer/footer-component.js';
 import { allProjectCards } from '../project-cards/project-cards-component.jsx';
@@ -12,7 +12,7 @@ import { motion } from 'framer-motion';
 const Work = () => {
 
   return (
-    <div>
+    <WorkPageContainer>
       <NavBar />
       <motion.div
       initial={{opacity: 0}}
@@ -30,7 +30,7 @@ const Work = () => {
       </WorkContainer>
       </motion.div>
       <Footer />
-    </div>
+    </WorkPageContainer>
   );
 }
 

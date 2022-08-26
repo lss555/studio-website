@@ -5,7 +5,7 @@ export const SectionOneContainer = styled.div`
   background-color: #c6bfb6;
   height: 40vh;
   padding-top: 200px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   @media screen and (max-width: 768px) {
 
@@ -19,11 +19,10 @@ export const HeroBg = styled.div`
   bottom: 0;
   right: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   overflow: hidden;
   z-index: 0;
-  background-image: url("skate.gif");
 `;
 
 export const ImageBg = styled.img`
