@@ -25,14 +25,14 @@ export const NavBarContainer = styled.div`
   justify-content: center;
   height: 80px;
   z-index: 1;
-  width: 96vw;
+  width: 100vw;
   padding: 0 24px;
   max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
   color: #010606;
-  justify-self: flex-start;
+  justify-self: center;
   cursor: pointer;
   justify-content: center;
   font-size: 1.5rem;
@@ -80,14 +80,16 @@ export const NavItemLeft = styled.div`
   display: flex;
   height: 80px;
   justify-content: flex-start;
-  align-items: flex-start;
+  margin-top: auto;
+  margin-bottom: auto;
 `;
 
 export const NavItemRight = styled.div`
   display: flex;
   height: 80px;
   justify-content: flex-end;
-  align-items: flex-end;
+  margin-top: auto;
+  margin-bottom: auto;
 `;
 
 export const NavLinks = styled(LinkR)`
