@@ -1,27 +1,26 @@
 
-import { ContactContainer } from './contact-styles';
 import NavBar from '../navbar/navbar-component.jsx';
 import Footer from '../footer/footer-component.js';
-import { motion } from 'framer-motion';
-
+import React from "react";
+import { Col } from "react-bootstrap";
+import './contact-styles.css';
+import ContactUs from '../contact-us/contact-us-component.jsx';
 
 const Contact = () => {
 
   return (
     <div>
-    <NavBar />
-    <motion.div
-    initial={{opacity: 0}}
-    animate={{opacity: 1}}
-    exit={{opacity: 0}}
-    >
-      <ContactContainer>
-        <h1>Contact</h1>
-      </ContactContainer>
-    </motion.div>
-    <Footer />
+      <NavBar />
+      <Col lg="8">
+        <h1 className="display-4 mb-4 contact-us">Contact Us</h1>
+        <hr className="t_border my-4 ml-0 text-left" />
+      </Col>
+      <div className='spacer'></div>
+      <ContactUs />
+      <div className='spacer'></div>
+      <Footer />
     </div>
   );
 }
 
-export default Contact;
+export default Contact

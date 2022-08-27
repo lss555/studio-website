@@ -2,6 +2,7 @@
 import { AboutContainer, AboutImageHeader, AboutHeader, HeaderSection, AboutInfoSection, InfoHeader, InfoPoints, InfoPointSection, InfoPointText, InfoPointContainer } from './about-styles';
 import NavBar from '../navbar/navbar-component.jsx';
 import Footer from '../footer/footer-component.js';
+import ContactUs from '../contact-us/contact-us-component.jsx';
 import { aboutHeader, aboutImageHeader } from '../data/data.js';
 import { motion } from 'framer-motion';
 
@@ -42,6 +43,7 @@ const About = () => {
             </InfoPointContainer>
           </InfoPointSection>
         </AboutInfoSection>
+        <ContactUs />
       </AboutContainer>
       </motion.div>
     <Footer />
