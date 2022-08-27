@@ -9,7 +9,7 @@ import './project-cards.css';
 
 
 export const projectCards = homepageHighlights.map(project => (
-      <Col className='card-column' sm='4' key={project.id}>
+      <Col className='card-column' sm='3' key={project.id}>
         <Link to={`/projects/${project.id}`} className="card-link">
           <div className='card-div'>
             <Card className="projects-card" body inverse>

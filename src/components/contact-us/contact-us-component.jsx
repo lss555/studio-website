@@ -27,7 +27,7 @@ const ContactUs = () => {
       <Container className='contact-component-container'>
 
         <Row className="mb-5 mt-3">
-          
+
         </Row>
         <Row className="sec_sp">
           <Col lg="5" className="mb-5">
@@ -85,7 +85,7 @@ const ContactUs = () => {
               <br />
               <Row>
                 <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit" value="Send">
+                  <button className="btn ac_btn send-btn" type="submit" value="Send">
                   Send
                   </button>
                 </Col>

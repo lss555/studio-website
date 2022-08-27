@@ -1,9 +1,7 @@
 import { homepageHighlights } from '../data/data.js';
 import { useParams } from 'react-router-dom';
 import { Title, ProjectContainer, PlayerContainer, InfoText, SubTitle } from './projects-styles';
-import NavBar from '../navbar/navbar-component.jsx';
 import ReactPlayer from 'react-player';
-import Footer from '../footer/footer-component.js';
 import { motion } from 'framer-motion';
 
 
@@ -12,7 +10,6 @@ const Projects = (props) => {
 
   return (
     <div>
-    <NavBar />
     <motion.div
     initial={{opacity: 0}}
     animate={{opacity: 1}}
@@ -36,7 +33,6 @@ const Projects = (props) => {
       );
     })}
     </motion.div>
-    <Footer />
     </div>
   );
 }

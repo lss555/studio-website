@@ -5,9 +5,18 @@ import { useState, useEffect } from 'react';
 import ClimbingBoxLoader
  from "react-spinners/ClimbingBoxLoader";
 import AnimatedRoutes from './components/animated-routes/animated-routes';
+import NavBar from './components/navbar/navbar-component.jsx';
+import SideBar from './components/sidebar/sidebar.jsx';
+import Footer from './components/footer/footer-component.js';
 
 function App() {
   const [loading, setLoading] = useState(false);
+
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
 
   useEffect(() => {
     setLoading(true)
@@ -23,8 +32,14 @@ function App() {
       color='#610517'
       loading={loading}
       size={30}
-      /> :
-      <AnimatedRoutes />
+      /> : (
+        <div>
+          <SideBar isOpen={isOpen} toggle={toggle}/>
+          <NavBar toggle={toggle}/>
+          <AnimatedRoutes />
+          <Footer />
+        </div>
+    )
       }
     </BrowserRouter>
   );

@@ -1,6 +1,3 @@
-
-import NavBar from '../navbar/navbar-component.jsx';
-import Footer from '../footer/footer-component.js';
 import React from "react";
 import { Col } from "react-bootstrap";
 import './contact-styles.css';
@@ -10,7 +7,6 @@ const Contact = () => {
 
   return (
     <div>
-      <NavBar />
       <Col lg="8">
         <h1 className="display-4 mb-4 contact-us">Contact Us</h1>
         <hr className="t_border my-4 ml-0 text-left" />
@@ -18,7 +14,6 @@ const Contact = () => {
       <div className='spacer'></div>
       <ContactUs />
       <div className='spacer'></div>
-      <Footer />
     </div>
   );
 }

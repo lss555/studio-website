@@ -1,3 +1,5 @@
 .card-column {
   box-sizing: border-box;
+  min-width: 20rem;
+  margin: 1rem auto auto auto;
 }

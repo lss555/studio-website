@@ -3,10 +3,12 @@ import { Link as LinkR } from 'react-router-dom';
 
 export const SectionTwoContainer = styled.div`
   margin-top: 28rem;
-  margin-left: 1rem;
-  margin-right: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
   width: 96vw;
-  color: black;
+  justify-content: center;
   @media screen and (max-width: 768px) {
     margin-top: 30rem;
   }

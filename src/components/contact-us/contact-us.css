@@ -11,3 +11,12 @@
   box-shadow: 0 2px 20px gray;
   border-radius: 1rem;
 }
+
+.send-btn {
+  border: 1px solid black;
+}
+
+.send-btn:hover {
+  color: white;
+  background-color: black;
+}
