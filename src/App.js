@@ -8,6 +8,7 @@ import AnimatedRoutes from './components/animated-routes/animated-routes';
 import NavBar from './components/navbar/navbar-component.jsx';
 import SideBar from './components/sidebar/sidebar.jsx';
 import Footer from './components/footer/footer-component.js';
+import ScrollToTop from './components/scroll-to-top/scroll-to-top.jsx';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -41,6 +42,7 @@ function App() {
         </div>
     )
       }
+      <ScrollToTop />
     </BrowserRouter>
   );
 }

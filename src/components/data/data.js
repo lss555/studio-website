@@ -45,7 +45,7 @@ export const homepageHighlights = [
     to: '/projects/1',
     url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
     info: 'Riding ski lifts in the summer with Specialized Bikes',
-    subTitle: 'directed by Joe Dirt'
+    subTitle: 'directed by George Duncan'
   },
   {
     id: '2',
@@ -53,8 +53,8 @@ export const homepageHighlights = [
     projectName: 'Skate Film',
     to: '/projects/2',
     url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
-    info: 'The culture of indoor skating in the winter months',
-    subTitle: 'directed by Joe Dirt'
+    info: 'The culture of skating in Helsinki. We visit some skateparks streetspots do capture the city by film.',
+    subTitle: 'directed by Linda Williams'
   },
   {
     id: '3',
@@ -63,7 +63,7 @@ export const homepageHighlights = [
     to: '/projects/3',
     url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
     info: 'A film documenting the Japanese winter and the culture of Hokkaido',
-    subTitle: 'directed by Joe Dirt'
+    subTitle: 'directed by Megan Olson'
   },
   {
     id: '4',
@@ -72,7 +72,7 @@ export const homepageHighlights = [
     to: '/projects/4',
     url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
     info: 'Riding dirt bikes and going full send with some of the best monster athletes in the world',
-    subTitle: 'directed by Joe Dirt'
+    subTitle: 'directed by George Duncan'
   },
   {
     id: '5',
@@ -81,7 +81,7 @@ export const homepageHighlights = [
     to: '/projects/5',
     url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
     info: 'Enduro and downhill riding in Moab, UT',
-    subTitle: 'directed by Joe Dirt'
+    subTitle: 'directed by Linda Williams'
   },
   {
     id: '6',
@@ -90,7 +90,7 @@ export const homepageHighlights = [
     to: '/projects/5',
     url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
     info: 'A short film about the culture of ski towns and chasing fresh snow',
-    subTitle: 'directed by Joe Dirt'
+    subTitle: 'directed by Megan Olson'
   }
 ];
 
@@ -128,71 +128,71 @@ export const allProjects = [
     src: DhMtnbike,
     projectName: 'Downhill Mountain Biking Promo Video',
     to: '/projects/1',
-    url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
-    info: 'Riding ski lifts in the summer with Specialized Bikes. We go up to Winter Park and see what all the hype is about.',
-    subTitle: 'directed by Joe Dirt'
+    url: 'https://www.youtube.com/watch?v=yiNyUvYb7AM',
+    info: 'Riding the new specialized Stumpjumper. We go up to Winter Park and see what all the hype is about.',
+    subTitle: 'directed by George Duncan'
   },
   {
     id: '2',
     src: Indoorskate,
     projectName: 'Skate Film',
     to: '/projects/2',
-    url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
-    info: 'The culture of indoor skating in the winter months. We visit some indoor skateparks in Helsinki to see where all the skaters go in the winter.',
-    subTitle: 'directed by Joe Dirt'
+    url: 'https://www.youtube.com/watch?v=1JcD2oz1rDg',
+    info: 'The culture of skating in Helsinki. We visit some skateparks and streetspots to capture the city by film.',
+    subTitle: 'directed by Linda Williams'
   },
   {
     id: '3',
     src: JapanPow,
     projectName: 'Winter in Japan',
     to: '/projects/3',
-    url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
+    url: 'https://www.youtube.com/watch?v=1e6w23dVc6o',
     info: 'A film documenting the Japanese winter and the culture of Hokkaido. In this film we see how the people of Hokkaido live with an average snowfall of over 10 feet annually.',
-    subTitle: 'directed by Joe Dirt'
+    subTitle: 'directed by Megan Olson'
   },
   {
-    id: '4',
+    id: '8',
     src: Yellowstone,
     projectName: 'Tourism in Yellowstone',
-    to: '/projects/4',
-    url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
-    info: 'skiing big sky and stuff nice wow cool super nice we worked with so and so nice personal project filming with so and so sdkjfnskjdfnskjndfsd sd;kfnsdkjfn skjdfndskjnf s;dfjnsd;knfj',
-    subTitle: 'directed by Joe Dirt'
+    to: '/projects/8',
+    url: 'https://www.youtube.com/watch?v=Y-ivZT-Gdto',
+    info: 'Exploring the ecosystem in yellowstone and the effect tourism has on it.',
+    subTitle: 'directed by George Duncan'
   },
   {
     id: '5',
     src: Mtnbike,
     projectName: 'Riding Moab',
     to: '/projects/5',
-    url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
+    url: 'https://www.youtube.com/watch?v=dffk7gJXz4c',
     info: 'Enduro and downhill riding in Moab, UT. We visit Moab the mecca of mountainbiking to see what it has to offer.',
-    subTitle: 'directed by Joe Dirt'
+    subTitle: 'directed by Linda Williams'
   },
   {
     id: '6',
     src: Skilift,
     projectName: 'Early Bird Gets the Worm',
-    to: '/projects/5',
-    url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
-    info: 'A short film about the culture of ski towns and chasing fresh snow. We visit the town Telluride and interviews some of the locals.',
-    subTitle: 'directed by Joe Dirt'
+    to: '/projects/6',
+    url: 'https://www.youtube.com/watch?v=M9rYSCSn-nU',
+    info: 'A short film about the culture of ski towns and chasing fresh snow. We visit the town of Telluride and interview some of the locals.',
+    subTitle: 'directed by Megan Olson'
   },
   {
     id: '7',
     src: VanderFilms,
     projectName: 'E-bike Promo',
-    to: '/projects/5',
-    url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
-    info: 'skiing big sky and stuff nice wow cool super nice we worked with so and so nice personal project filming with so and so sdkjfnskjdfnskjndfsd sd;kfnsdkjfn skjdfndskjnf s;dfjnsd;knfj',
-    subTitle: 'directed by Joe Dirt'
+    to: '/projects/7',
+    url: 'https://www.youtube.com/watch?v=Sw2wnZEA7cM',
+    info: 'A Promotional video for Silion e-bikes.',
+    subTitle: 'directed by George Duncan'
   },
   {
-    id: '8',
+    id: '4',
     src: Monster,
     projectName: 'Monster Promo Video',
-    to: '/projects/5',
-    url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
+    to: '/projects/4',
+    url: 'https://www.youtube.com/watch?v=gRXUQQV9Vjc',
     info: 'Riding dirt bikes and going full send with some of the best monster athletes in the world. In this film we visit our neighbors up in Canada to see what they can do.',
-    subTitle: 'directed by Joe Dirt'
+    subTitle: 'directed by George Duncan'
   }
 ];

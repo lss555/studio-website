@@ -1,4 +1,4 @@
-import { homepageHighlights } from '../data/data.js';
+import { allProjects } from '../data/data.js';
 import { useParams } from 'react-router-dom';
 import { Title, ProjectContainer, PlayerContainer, InfoText, SubTitle } from './projects-styles';
 import ReactPlayer from 'react-player';
@@ -15,7 +15,7 @@ const Projects = (props) => {
     animate={{opacity: 1}}
     exit={{opacity: 0}}
     >
-    {homepageHighlights.map(project => {
+    {allProjects.map(project => {
       return (
         <b key={project.id}>{params.id === project.id ?
           <ProjectContainer key={project.id}>
@@ -29,7 +29,8 @@ const Projects = (props) => {
             <InfoText>
               {project.info}
             </InfoText>
-          </ProjectContainer> : null}</b>
+          </ProjectContainer> : null
+        }</b>
       );
     })}
     </motion.div>

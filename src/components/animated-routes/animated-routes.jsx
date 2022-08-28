@@ -6,8 +6,6 @@ import OurTeam from '../our-team/our-team-component.jsx';
 import About from '../about/about-component.jsx';
 import Work from '../work/work-component.jsx';
 import Contact from '../contact/contact-component.jsx';
-// import NavBar from '../navbar/navbar-component.jsx';
-// import Footer from '../footer/footer-component.js';
 import { AnimatePresence } from 'framer-motion';
 
 const AnimatedRoutes = ({ toggle, isOpen }) => {
