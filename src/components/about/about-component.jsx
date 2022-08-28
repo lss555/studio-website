@@ -24,19 +24,19 @@ const About = () => {
           <InfoPointSection>
             <InfoPointContainer>
               <InfoPoints>Strategy</InfoPoints>
-              <InfoPointText>strategy and stuff strategy and stuff strategy and stuff strategy and stuff strategy and stuff strategy and stuff</InfoPointText>
+              <InfoPointText>We strategically plan our films so we can achieve the best results</InfoPointText>
             </InfoPointContainer>
             <InfoPointContainer>
               <InfoPoints>Creativity</InfoPoints>
-              <InfoPointText>strategy and stuff strategy and stuff strategy and stuff strategy and stuff strategy and stuff strategy and stuff</InfoPointText>
+              <InfoPointText>We use creativity to make films pop and break barriers to set us appart from any other film group</InfoPointText>
             </InfoPointContainer>
             <InfoPointContainer>
               <InfoPoints>Execution</InfoPoints>
-              <InfoPointText>Creativity and stuff Creativity and stuff Creativity and stuff Creativity and stuff Creativity and stuff</InfoPointText>
+              <InfoPointText>When you take great strategy and lots of creativity into a project it will set you to have the best results</InfoPointText>
             </InfoPointContainer>
             <InfoPointContainer>
               <InfoPoints>Production</InfoPoints>
-              <InfoPointText>Production and stuff Production and stuff Production and stuff Production and stuff Production and stuff</InfoPointText>
+              <InfoPointText>Production quailty and great equipment to accomplish any dream sets us apart</InfoPointText>
             </InfoPointContainer>
           </InfoPointSection>
         </AboutInfoSection>

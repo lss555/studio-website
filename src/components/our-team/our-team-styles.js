@@ -45,7 +45,7 @@ export const TeamMemberName = styled.h2`
 export const TeamMemberSummary = styled.p`
   display: flex;
   letter-spacing: .05rem;
-  color: red;
+  color: black;
   align-items: center;
   justify-content: center;
   margin: 1.5rem 1rem 1rem 1rem;

@@ -9,7 +9,6 @@ export const SectionOneContainer = styled.div`
   display: flex;
   @media screen and (max-width: 768px) {
 
-
   }
 `;
 
@@ -44,7 +43,7 @@ export const Header = styled.h1`
   width: 70%;
   z-index: 10;
   @media screen and (max-width: 768px) {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 `;
 

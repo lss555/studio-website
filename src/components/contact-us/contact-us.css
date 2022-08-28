@@ -10,10 +10,17 @@
   padding-left: 2rem;
   box-shadow: 0 2px 20px gray;
   border-radius: 1rem;
+  width: 100vw;
 }
 
 .send-btn {
   border: 1px solid black;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 10rem;
 }
 
 .send-btn:hover {
