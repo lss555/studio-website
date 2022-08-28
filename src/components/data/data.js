@@ -89,7 +89,7 @@ export const homepageHighlights = [
     projectName: 'Early Bird Gets the Worm',
     to: '/projects/5',
     url: 'https://www.youtube.com/watch?v=CGO_xo0UDnI',
-    info: 'A short film about the culture of ski towns and chassing fresh snow',
+    info: 'A short film about the culture of ski towns and chasing fresh snow',
     subTitle: 'directed by Joe Dirt'
   }
 ];
