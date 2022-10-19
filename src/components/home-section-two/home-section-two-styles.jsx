@@ -38,4 +38,15 @@ export const Headers = styled.div`
   display: flex;
   justify-content: space-between;
   margin-right: 2rem;
+  @media screen and (min-height: 1000px) {
+    z-index: 10001;
+    display: flex;
+    margin-top: 48rem;
+  }
+`;
+
+export const RowContainer = styled.div`
+  @media screen and (min-height: 1000px) {
+    margin-top: 5rem;
+  }
 `;

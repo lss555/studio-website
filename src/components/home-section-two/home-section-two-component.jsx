@@ -1,4 +1,4 @@
-import { SectionTwoContainer, Header, SubHeader, Headers } from './home-section-two-styles.jsx';
+import { SectionTwoContainer, Header, SubHeader, Headers, RowContainer } from './home-section-two-styles.jsx';
 import './home-section-two.css';
 import { projectCards } from '../project-cards/project-cards-component.jsx';
 import {
@@ -13,9 +13,11 @@ const SectionTwo = () => {
               <Header>Work</Header>
               <SubHeader to="/work">View All</SubHeader>
             </Headers>
-            <Row>
-              {projectCards}
-            </Row>
+            <RowContainer>
+              <Row>
+                {projectCards}
+              </Row>
+            </RowContainer>
           </SectionTwoContainer>
         )
       }

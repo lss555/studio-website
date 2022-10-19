@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import ClimbingBoxLoader
  from "react-spinners/ClimbingBoxLoader";
@@ -27,7 +27,7 @@ function App() {
   }, [])
 
   return (
-    <BrowserRouter className='App'>
+    <HashRouter className='App'>
     { loading ? <ClimbingBoxLoader
       className='initialLoader'
       color='#610517'
@@ -43,7 +43,7 @@ function App() {
     )
       }
       <ScrollToTop />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
